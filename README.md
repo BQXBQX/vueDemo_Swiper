@@ -1,7 +1,7 @@
-# Vue 3 + Vite
+# Using `swiper.js` in `vue` to implement page component sliding effects.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+We often see this kind of page on the `app` side of the implementation and on the applet side:
 
-## Recommended IDE Setup
+When we slide the page, the window switches to the next page, the navigation bar switches to the corresponding navigation bar, and when we click on one of the elements in the navigation bar, the window automatically slides to the corresponding page.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+I didn't see such a style in the samples on the `swiper.js` website, all the styles on the website have a small circle at the bottom of the navigation bar, not a specific `navigation`, so I implemented this feature myself by using the `api` provided by `swiper.js`.
